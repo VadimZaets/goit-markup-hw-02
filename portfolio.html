@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container main-nav">
+        <nav class="header-nav">
+          <a href="/" class="logo"> <span class="color-web">Web</span>Studio</a>
+          <ul class="site-nav list">
+            <li class="item">
+              <a href="./index.html" class="header-link">Студия</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="header-link">Портфолио</a>
+            </li>
+            <li class="item"><a href="" class="header-link">Контакты</a></li>
+          </ul>
+        </nav>
+        <!-- Контакты -->
+        <ul class="contacts list">
+          <li>
+            <a href="mailto:info@devstudio.com" class="mail-link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="tel-link">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="section">
+           <!--Фильтры-->
+       <div class="container"> 
+           <ul class="list">
+          <li><button type="button">Все</button></li>
+          <li><button type="button">Веб-сайты</button></li>
+          <li><button type="button">Приложения</button></li>
+          <li><button type="button">Дизайн</button></li>
+          <li><button type="button">Маркетинг</button></li>
+        </ul>
+
+        <!-- Карточки -->
+
+          <section >
+            <ul class="list" >
+              <li >
+               <img
+                        src="./img/portfolio/techno.jpg"
+                        alt=" сайт на мониторе"
+                        width="370"
+                      />
+                      <h2 class="card-name">Технокряк</h2>
+                  <p class="card-text">Веб-сайт</p>
+                </a>
+              </li>
+              <li class="card item">
+                
+                  <img
+                    src="./img/portfolio/poster.jpg"
+                    alt="постер баскетболисты"
+                    width="370"
+                  />
+                  <h2 class="card-name">Постер New Orlean vs Golden Star</h2>
+                  <p class="card-text">Дизайнг</p>
+               
+              </li>
+              <li class="card item">
+                
+                  <img
+                    src="./img/portfolio/restaurant.jpg"
+                    alt="Логотип ресторана"
+                    width="370"
+                  />
+                  <h2 class="card-name">Ресторан Seafood</h2>
+                  <p class="card-text">Приложение</p>
+               
+              </li>
+              <li class="card item">
+                
+                  <img
+                    src="./img/portfolio/project.jpg"
+                    alt="Наушники"
+                    width="370"
+                  />
+                  <h2 class="card-name">Проект Prime</h2>
+                  <p class="card-text">Маркетинг</p>
+                
+              </li>
+              <li class="card item">
+                
+                  <img
+                    src="./img/portfolio/projectbox.jpg"
+                    alt="Две коробочки"
+                    width="370"
+                  />
+                  <h2 class="card-name">Проект Boxes</h2>
+                  <p class="card-text">Приложение</p>
+               
+              </li>
+              <li class="card item">
+                
+                  <img
+                    src="./img/portfolio/inspiration.jpg"
+                    alt="сайт на мониторе"
+                    width="370"
+                  />
+                  <h2 class="card-name">Inspiration has no Borders</h2>
+                  <p class="card-text">Веб-сайт</p>
+                
+              </li>
+              <li class="card item">
+               
+                  <img
+                    src="./img/portfolio/limitededition.jpg"
+                    alt="Журнал с картинками"
+                    width="370"
+                  />
+                  <h2 class="card-name">Издание Limited Edition</h2>
+                  <p class="card-text">Дизайн</p>
+             
+              </li>
+              <li class="card item">
+                
+                  <img src="./img/portfolio/lab.jpg" alt="бирка" width="370" />
+                  <h2 class="card-name">Проект LAB</h2>
+                  <p class="card-text">Маркетинг</p>
+                
+              </li>
+              <li class="card item">
+               
+                  <img
+                    src="./img/portfolio/growingbusiness.jpg"
+                    alt="Работа за ноутбуком"
+                    width="370"
+                  />
+                  <h2 class="card-name">Growing Business</h2>
+                  <p class="card-text">Приложение</p>
+                
+              </li>
+            </ul>
+          </section>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <a href="/" class="logo footer">
+          <span class="color-web">Web</span>Studio</a
+        >
+        <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
+        <ul class="list">
+          <li>
+            <a href="mailto:info@example.com" class="mail-link"
+              >info@example.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="tel-link">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
