@@ -17,6 +17,9 @@ body {
   padding: 0;
   margin: 0;
 }
+.link {
+  text-decoration: none;
+}
 .container {
   width: 1200px;
   padding: 0 15px;
@@ -88,7 +91,6 @@ body {
 .hero {
   background: #2f303a;
   text-align: center;
-  height: 600px;
 }
 .hero-title {
   color: white;
@@ -136,5 +138,23 @@ body {
 .footer {
   background-color: #2f303a;
 }
+.address {
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  color: #ffffff;
+}
 
 /* ====== FOOTER-END ====== */
+.card-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.card-text {
+  font-size: 16px;
+  line-height: 1.87;
+  color: #757575;
+}
