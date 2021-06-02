@@ -164,6 +164,7 @@ body {
 }
 /* ====== HERO-END ====== */
 /* ====== FEATURES ====== */
+
 .section-list {
   display: flex;
   flex-wrap: wrap;
@@ -179,7 +180,7 @@ body {
 }
 .features-title {
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-transform: uppercase;
   font-size: 14px;
   line-height: 1.14;
@@ -196,19 +197,21 @@ body {
 }
 /* ====== ABOUT-END ====== */
 /* ====== TEAM ====== */
+.about-section {
+  padding-top: 0;
+}
 .name-title {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
+  margin: 0;
 }
 .position {
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
-
-  margin-bottom: 16px;
 }
 .team {
   background: #f5f4fa;
@@ -240,6 +243,7 @@ body {
 }
 .footer {
   background-color: #2f303a;
+  padding: 60px 0;
 }
 
 .footer-logo-container {
@@ -249,9 +253,7 @@ body {
 .contact-section-footer .item:not(:last-child) {
   margin-bottom: 9px;
 }
-.section-footer {
-  padding: 60px 0;
-}
+
 /* ====== FOOTER-END ====== */
 .portfolio-cards {
   display: flex;
@@ -272,7 +274,7 @@ body {
 .card-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
+  margin-left: -36px;
   margin-top: -30px;
 }
 .card {
@@ -280,7 +282,13 @@ body {
   margin-left: 30px;
   margin-top: 30px;
   border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
+.card-container {
+  padding-left: 24px;
+}
+
 .section-buttons {
   display: flex;
   justify-content: center;
@@ -307,4 +315,7 @@ body {
   color: var(--footer-text-color);
   border-color: var(--accent-text-color);
   background-color: var(--accent-text-color);
+}
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);
 }
