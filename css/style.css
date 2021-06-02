@@ -249,7 +249,9 @@ body {
 .contact-section-footer .item:not(:last-child) {
   margin-bottom: 9px;
 }
-
+.section-footer {
+  padding: 60px 0;
+}
 /* ====== FOOTER-END ====== */
 .portfolio-cards {
   display: flex;
